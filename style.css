@@ -1,0 +1,51 @@
+@charset "UTF-8";
+body {
+  background-color: gray;
+}
+ 
+#wrap {
+  width: 960px;
+  margin: auto;
+  background-color: rgb(204, 204, 204);
+}
+ 
+header {
+  padding: 40px;
+  height: 80px;
+}
+ 
+nav {
+  padding: 8px 40px;
+  background-color: black;
+  color: white;
+}
+ 
+main {
+  padding: 40px;
+  height : 400px;
+}
+ 
+footer {
+  padding: 40px;
+  height: 40px;
+  background-color : black;
+  color: white;
+}
+
+a {
+  color: royalblue;
+  text-decoration: none;
+}
+
+a:visited {
+  color: rgb(255, 255, 255);
+}
+
+a:hover {
+  color: rgb(39, 55, 117);
+  text-decoration: underline;
+}
+
+a:active{
+  color:bisque
+}
